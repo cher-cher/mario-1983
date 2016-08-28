@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="13" tilewidth="16" tileheight="16" nextobjectid="37">
+ <tileset firstgid="1" name="mario bros" tilewidth="16" tileheight="16" tilecount="600" columns="20">
+  <image source="mario bros.png" width="320" height="480"/>
+ </tileset>
+ <layer name="background" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzbz8DAsH8Uj+JRPIpHMRgDALp/8nw=
+  </data>
+ </layer>
+ <layer name="graffic" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgmATEkxmoC0qBuAzKXgrEy4B4OZXt6ATiLiDuBuKdQLyLyubDwDwgng/EkxiJx+iAXH1DFUxjxI5hgJSwIGTWUAekpotVZOjfAFS3kUbuXwTEi4H4CBAfpZEd24B4OxDfowMGAFObRuk=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="19" name="solid" x="-0.5" y="193" width="400" height="15"/>
+ </objectgroup>
+ <objectgroup name="pipes">
+  <object id="20" name="pipes" x="0" y="160.5" width="31.5" height="19"/>
+  <object id="22" name="pipes" x="368.5" y="160.5" width="31.5" height="20.5"/>
+  <object id="24" name="pipes" x="0" y="5" width="48" height="31.5"/>
+  <object id="26" name="pipes" x="352.5" y="8.5" width="47" height="32.5"/>
+ </objectgroup>
+ <objectgroup name="coins"/>
+ <objectgroup name="power">
+  <object id="18" x="459" y="27"/>
+  <object id="27" name="power" x="191.5" y="143" width="17.5" height="17.5"/>
+ </objectgroup>
+ <objectgroup name="blocks">
+  <object id="29" name="blocks" x="0" y="47.5" width="176" height="9"/>
+  <object id="30" name="blocks" x="239.5" y="47" width="160.5" height="9.5"/>
+  <object id="31" name="blocks" x="-0.5" y="103" width="96.5" height="9.5"/>
+  <object id="32" name="blocks" x="128" y="95" width="143" height="9"/>
+  <object id="33" name="blocks" x="304" y="103.5" width="96" height="9"/>
+  <object id="34" name="blocks" x="-0.5" y="144" width="144.5" height="8.5"/>
+  <object id="35" name="blocks" x="255.5" y="143.5" width="144" height="9"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="16" tileheight="16" nextobjectid="18">
+ <tileset firstgid="1" name="mario bros" tilewidth="16" tileheight="16" tilecount="600" columns="20">
+  <image source="mario bros.png" width="320" height="480"/>
+ </tileset>
+ <layer name="background" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy7wMDAcGEUj+JRPIpH8bDCAD9NMMA=
+  </data>
+ </layer>
+ <layer name="graffic" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPmATEk6lsZikQl0HZS4F4GRAvp7IdnUDcBcTdQLwTiHdR2XwYmAfE84F4EiPxGBmQq28U4AfTGHFjGCAmrIkxZ6gDUtPfKjL0bgCq3Ugj9y8C4sVAfASIj9LIjm1AvB2I79EBAwBKTEiq
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="1" name="solid" x="1" y="224" width="400" height="17"/>
+  <object id="2" x="486" y="96" width="1"/>
+ </objectgroup>
+ <objectgroup name="blocks">
+  <object id="4" name="blocks" x="-1" y="175" width="161" height="10"/>
+  <object id="6" name="blocks" x="239" y="175" width="162" height="10"/>
+  <object id="7" name="blocks" x="-1" y="134" width="113" height="11"/>
+  <object id="8" name="blocks" x="288" y="134" width="111" height="10"/>
+  <object id="9" name="blocks" x="-1" y="62" width="177" height="11"/>
+  <object id="10" name="blocks" x="223" y="64" width="176" height="9"/>
+  <object id="11" name="blocks" x="143" y="126" width="114" height="11"/>
+ </objectgroup>
+ <objectgroup name="power">
+  <object id="12" name="power" x="190" y="177" width="19" height="15"/>
+ </objectgroup>
+ <objectgroup name="pipes">
+  <object id="13" name="pipes" x="0" y="192" width="31" height="20"/>
+  <object id="14" name="pipes" x="370" y="194" width="31" height="19"/>
+  <object id="15" name="pipes" x="0" y="18" width="48" height="34"/>
+  <object id="16" name="pipes" x="350" y="22" width="51" height="34"/>
+  <object id="17" x="-61" y="-89"/>
+ </objectgroup>
+</map>
