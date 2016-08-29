@@ -7,9 +7,9 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-import Screen.PlayScreen;
+import info.irina.mario.Screen.PlayScreen;
 
-public class Mario extends Game {
+public class MarioBros extends Game {
 
 	public static final int V_WIDTH = 400;
 	public static final int V_HEIGHT = 208;

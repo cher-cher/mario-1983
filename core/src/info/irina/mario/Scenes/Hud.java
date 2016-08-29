@@ -2,7 +2,7 @@
  * Created by User on 26.08.2016.
  */
 
-package Scenes;
+package info.irina.mario.Scenes;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -16,7 +16,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 
 import java.util.Locale;
 
-import info.irina.mario.Mario;
+import info.irina.mario.MarioBros;
 
 
 public class Hud {
@@ -39,7 +39,7 @@ public class Hud {
         timeCount = 0;
         score = 0;
 
-        viewport = new FitViewport(Mario.V_WIDTH, Mario.V_HEIGHT, new OrthographicCamera());
+        viewport = new FitViewport(MarioBros.V_WIDTH, MarioBros.V_HEIGHT, new OrthographicCamera());
         stage = new Stage(viewport, sb);
 
         Table table = new Table();
